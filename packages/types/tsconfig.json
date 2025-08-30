@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "moduleResolution": "Bundler",
+    "emitDeclarationOnly": false,
+    "isolatedModules": false
+  },
+  "include": ["src/**/*.ts"]
+}
+
