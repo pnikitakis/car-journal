@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "packageManager": "pnpm@9.6.0",
   "scripts": {
+    "dev": "pnpm --filter @car-journal/web dev",
     "typecheck": "pnpm -r typecheck",
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",
