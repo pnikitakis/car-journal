@@ -5,7 +5,8 @@
     "outDir": "dist",
     "moduleResolution": "Bundler",
     "emitDeclarationOnly": false,
-    "isolatedModules": false
+    "isolatedModules": false,
+    "noEmit": false
   },
   "include": ["src/**/*.ts"]
 }

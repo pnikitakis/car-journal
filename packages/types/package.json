@@ -8,13 +8,13 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint src --ext ts,tsx || echo 'eslint not configured'",
+    "lint": "eslint src --ext ts,tsx",
     "test": "vitest run"
   },
   "devDependencies": {
     "typescript": "^5.5.4",
     "vitest": "^2.0.5",
-    "eslint": "^9.9.1",
+    "eslint": "^8.56.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0"
   }
