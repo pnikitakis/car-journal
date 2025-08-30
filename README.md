@@ -1,5 +1,7 @@
 Car Journal Monorepo
 
+![CI](https://github.com/pnikitakis/car-journal/actions/workflows/ci.yml/badge.svg?branch=main)
+
 Workspace using pnpm with a Next.js app and a shared types package.
 
 Getting Started
@@ -17,3 +19,8 @@ Packages
 - apps/web: Next.js App Router + TypeScript + Tailwind
 - packages/types: Shared TypeScript types + Vitest tests
 
+CI
+
+- Workflow: `.github/workflows/ci.yml`
+- Runs on PRs: `pnpm typecheck`, `pnpm lint`, `pnpm test -- --run`, `pnpm -w build`
+- Actions: https://github.com/pnikitakis/car-journal/actions
